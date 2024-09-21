@@ -1,0 +1,172 @@
+/* GENERAL */
+body, html{ overflow-x: hidden; }
+body{    
+    background: rgb(224,224,224) ;
+    background: -moz-linear-gradient(0deg, rgba(224,224,224,1) 0%, rgba(195,195,195,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(224,224,224,1) 0%, rgba(195,195,195,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e0e0",endColorstr="#c3c3c3",GradientType=1);
+}
+
+
+/*WRAPPER CONTENT */
+#wrapper_content{
+    padding: 15px 0px 0px 0px;    
+    background-image: url("../images/diagonal.png") ;
+    background-repeat: no-repeat;
+    background-position: 27vw -150px;
+}
+#wrapper_content .container-fluid{ 
+    margin: 0px; padding: 0px;
+}
+
+/* HEADER */
+
+#header_movil{
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#slogan_movil img{
+    height: 25vw;
+}
+#slogan_movil {
+    padding: 100px 0px 20px 10px;
+}
+
+#clientes_movil{ 
+    font-size: 4vw;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center; 
+}
+
+#clientes_movil img{
+    height: 11vw; 
+    padding: 9px 9px
+}
+
+#creditos_movil{ 
+    text-align: center; 
+    font-size: 13px;
+    color: #999;
+}
+
+#header_bloque{ 
+    z-index: 0;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 3vw;
+}
+
+#header{ 
+    background: #ff0001;
+    height: 122px;
+}
+
+#logo { 
+    padding-top: 25px;
+    padding-right: 50px;
+    text-align: right;
+} 
+
+#logo img{ 
+    height: 4vw;
+    height: 4.5vmax;
+}
+
+/* CONTENT */
+#content{padding: 100px 0px 0px 0px;}
+#content #slogan{text-align: center;}
+#content #video{
+    text-align: center; 
+    margin-right: 50px; 
+    width: 500px; 
+    border: 1px solid #fff; 
+    background-color: #000000;
+}
+
+#logos_clientes{
+    margin: 50px 0px;
+    padding: 15px 0px 5px 0px;
+    background: #eaeaea;
+    border-bottom:5px solid #d1d1d1;
+}
+
+#logos_clientes li img{
+    height: 2.5vw; 
+    padding: 0px 10px
+}
+#logos_clientes .txt_clientes{ 
+    color: #999; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    border-right: 1px solid #ff0001;
+    padding: 10px 20px 5px 0px;
+    font-size: 1vw;
+}
+
+#adorno_logos_clientes img{ height: 7.5em;}
+#adorno_logos_clientes{ 
+    float: right;
+    position: absolute;
+    top: 546px;
+    right: 20px;
+}
+
+#creditos_sup{ 
+    font-size: 1vw;
+    color: #666;
+    text-align: center; padding: 0px 0px 30px 0px
+}
+
+#logo_creditos img{ height: 35px; }
+
+/* NOSOTROS */
+
+#movil #nosotros{
+    padding: 20px;    
+}
+
+#movil #nosotros .info{
+    text-align: center
+}
+
+#wrapper_nosotros{
+    background: rgb(51,51,51);
+    background: -moz-linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(20,20,20,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(20,20,20,1) 100%);
+    /*background: linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(20,20,20,1) 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333333",endColorstr="#141414",GradientType=1);
+}
+
+#nosotros{
+    padding: 80px 0px 80px 0px;
+    background: url(../images/diagonal_nosotros.png) no-repeat 10% 70%;
+}
+
+#nosotros .info{ color: #fff; }
+
+#wrapper_footer{
+    background: url(../images/circulo.png) no-repeat -80% 80%;
+}
+
+#contacto{    
+    padding: 20px 0px;
+}
+#contacto ul li img{    
+    height: 20px;
+}
+
+#vcard img{ height: 20vw }
+
+#logo_contacto { padding: 20px 0px ;}
+#logo_contacto img{height: 3vw;}
+
+
+#msg_ok, #msg_error{ display: none;}
